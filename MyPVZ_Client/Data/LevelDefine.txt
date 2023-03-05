@@ -1,0 +1,34 @@
+{
+  "1": {
+    "ID": 1,
+    "Chapter": 1,
+    "Levels": 1,
+    "ZombieTypes": [
+      1
+    ],
+    "Difficulty": 2.0,
+    "FlagProgress": [
+      2
+    ],
+    "Urgentment": 0.1,
+    "MaxCount": 4,
+    "CountRatio": 0.4
+  },
+  "2": {
+    "ID": 2,
+    "Chapter": 1,
+    "Levels": 2,
+    "ZombieTypes": [
+      2,
+      3,
+      4
+    ],
+    "Difficulty": 8.0,
+    "FlagProgress": [
+      10
+    ],
+    "Urgentment": 0.1,
+    "MaxCount": 5,
+    "CountRatio": 0.4
+  }
+}

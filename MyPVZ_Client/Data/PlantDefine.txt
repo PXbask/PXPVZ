@@ -1,0 +1,28 @@
+{
+  "1": {
+    "ID": 1,
+    "Name": "豌豆射手",
+    "HP": 200,
+    "FireSpeed": 2.0,
+    "Bullet": 1,
+    "Type": "Attack",
+    "CoolTime": 5.0,
+    "ImageResPath": "UI/Image/peashooter_rgb",
+    "PrefabResPath": "Prefab/peashooter",
+    "Scope": "One",
+    "Cost": 100
+  },
+  "2": {
+    "ID": 2,
+    "Name": "向日葵",
+    "HP": 200,
+    "FireSpeed": 10.0,
+    "Bullet": 2,
+    "Type": "Assist",
+    "CoolTime": 5.0,
+    "ImageResPath": "UI/Image/sunflower_rgb",
+    "PrefabResPath": "Prefab/sunflower",
+    "Scope": "One",
+    "Cost": 50
+  }
+}

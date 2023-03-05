@@ -1,0 +1,83 @@
+{
+  "1": {
+    "ID": 1,
+    "Name": "普通僵尸",
+    "HP": 200,
+    "Speed": 0.15,
+    "PrefabRes": "Prefab/zombie",
+    "Damage": 10,
+    "AttackInterval": 0.5,
+    "Menace": 2,
+    "Base": 1
+  },
+  "2": {
+    "ID": 2,
+    "Name": "路障僵尸",
+    "HP": 200,
+    "Equipments": [
+      1
+    ],
+    "Speed": 0.15,
+    "Damage": 10,
+    "AttackInterval": 0.5,
+    "Menace": 6,
+    "Base": 1
+  },
+  "3": {
+    "ID": 3,
+    "Name": "铁桶僵尸",
+    "HP": 200,
+    "Equipments": [
+      2
+    ],
+    "Speed": 0.15,
+    "Damage": 10,
+    "AttackInterval": 0.5,
+    "Menace": 15,
+    "Base": 1
+  },
+  "4": {
+    "ID": 4,
+    "Name": "路障铁桶僵尸",
+    "HP": 200,
+    "Equipments": [
+      1,
+      2
+    ],
+    "Speed": 0.15,
+    "Damage": 10,
+    "AttackInterval": 0.5,
+    "Menace": 20,
+    "Base": 1
+  },
+  "5": {
+    "ID": 5,
+    "Name": "撑杆僵尸",
+    "HP": 400,
+    "Speed": 0.3,
+    "Damage": 10,
+    "AttackInterval": 0.5,
+    "Menace": 6
+  },
+  "6": {
+    "ID": 6,
+    "Name": "读报僵尸",
+    "HP": 200,
+    "Equipments": [
+      3
+    ],
+    "Speed": 0.15,
+    "Damage": 10,
+    "AttackInterval": 0.5,
+    "Menace": 8
+  },
+  "7": {
+    "ID": 7,
+    "Name": "舞王僵尸",
+    "HP": 400,
+    "Speed": 0.3,
+    "Damage": 10,
+    "AttackInterval": 0.5,
+    "Menace": 15
+  }
+}

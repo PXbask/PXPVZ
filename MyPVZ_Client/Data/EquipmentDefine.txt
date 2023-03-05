@@ -1,0 +1,19 @@
+{
+  "1": {
+    "ID": 1,
+    "Name": "路障",
+    "HP": 400,
+    "AssetPath": "Prefab/Equip/cone"
+  },
+  "2": {
+    "ID": 2,
+    "Name": "铁桶",
+    "HP": 1200,
+    "AssetPath": "Prefab/Equip/bucket"
+  },
+  "3": {
+    "ID": 3,
+    "Name": "报纸",
+    "HP": 200
+  }
+}

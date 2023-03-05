@@ -1,0 +1,14 @@
+{
+  "1": {
+    "ID": 1,
+    "Name": "豌豆",
+    "Damage": 50,
+    "PrefabRes": "Prefab/peabullet"
+  },
+  "2": {
+    "ID": 2,
+    "Name": "阳光",
+    "Damage": 50,
+    "PrefabRes": "Prefab/sun"
+  }
+}
