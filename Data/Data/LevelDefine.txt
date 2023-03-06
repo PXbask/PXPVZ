@@ -20,7 +20,8 @@
     "Levels": 2,
     "ZombieTypes": [
       2,
-      3
+      3,
+      4
     ],
     "Difficulty": 8.0,
     "FlagProgress": [

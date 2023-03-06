@@ -2,7 +2,7 @@
   "1": {
     "ID": 1,
     "Name": "豌豆",
-    "Damage": 50,
+    "Damage": 25,
     "PrefabRes": "Prefab/peabullet"
   },
   "2": {

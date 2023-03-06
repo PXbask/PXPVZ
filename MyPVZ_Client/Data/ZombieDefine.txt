@@ -20,7 +20,7 @@
     "Speed": 0.15,
     "Damage": 10,
     "AttackInterval": 0.5,
-    "Menace": 2,
+    "Menace": 6,
     "Base": 1
   },
   "3": {
@@ -33,7 +33,7 @@
     "Speed": 0.15,
     "Damage": 10,
     "AttackInterval": 0.5,
-    "Menace": 2,
+    "Menace": 15,
     "Base": 1
   },
   "4": {
@@ -47,7 +47,7 @@
     "Speed": 0.15,
     "Damage": 10,
     "AttackInterval": 0.5,
-    "Menace": 2,
+    "Menace": 20,
     "Base": 1
   },
   "5": {

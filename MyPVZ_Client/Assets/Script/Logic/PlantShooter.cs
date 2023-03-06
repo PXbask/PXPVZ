@@ -10,6 +10,7 @@ public class PlantShooter : PlantLogic
     public override void Init(Plant plant)
     {
         base.Init(plant);
+        if (plant.Bullet == 0) return;
         Bullet bullet = DataManager.Instance.Bullets[plant.Bullet];
         bulletPrefab = Resources.Load<GameObject>(bullet.PrefabRes);
     }
@@ -21,6 +22,7 @@ public class PlantShooter : PlantLogic
     {
         if(!CheckActionScope()) return;
         if(!isReady) return;
+        if (bulletPrefab == null) return;
         GameObject obj = Instantiate(bulletPrefab, bulletRoot.position, Quaternion.identity, bulletRoot);
         BulletLogic bulletLogic = obj.GetComponent<BulletLogic>();
         bulletLogic.Init(plantDefine);

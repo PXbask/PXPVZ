@@ -8,7 +8,7 @@
     "Type": "Attack",
     "CoolTime": 5.0,
     "ImageResPath": "UI/Image/peashooter_rgb",
-    "PrefabResPath": "Prefab/peashooter",
+    "PrefabResPath": "Prefab/Plant/peashooter",
     "Scope": "One",
     "Cost": 100
   },
@@ -21,7 +21,20 @@
     "Type": "Assist",
     "CoolTime": 5.0,
     "ImageResPath": "UI/Image/sunflower_rgb",
-    "PrefabResPath": "Prefab/sunflower",
+    "PrefabResPath": "Prefab/Plant/sunflower",
+    "Scope": "One",
+    "Cost": 50
+  },
+  "3": {
+    "ID": 3,
+    "Name": "坚果墙",
+    "HP": 5000,
+    "FireSpeed": 9999.0,
+    "Bullet": 0,
+    "Type": "Attack",
+    "CoolTime": 20.0,
+    "ImageResPath": "UI/Image/nutwall_rgb",
+    "PrefabResPath": "Prefab/Plant/nutwall",
     "Scope": "One",
     "Cost": 50
   }
